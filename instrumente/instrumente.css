@@ -1,4 +1,4 @@
-/* Calculatoarele publice (generate de tools/build_site_tools.py); completează style.css și grile/grile.css */
+/* Calculatoarele publice (generate de tools/build_site_tools.py); completează style.css și pagini.css */
 .calc form{display:grid;gap:6px;padding:12px 0}
 .calc label{font-weight:700;margin-top:8px}
 .calc label.check{display:flex;align-items:center;gap:10px;font-weight:600;min-height:44px}
