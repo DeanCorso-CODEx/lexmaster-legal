@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator taxă judiciară de timbru 2026 | Lex Master</title>
+<meta name="description" content="Taxa judiciară de timbru după OUG nr. 80/2013: scara valorică, taxele fixe, partajul după Legea nr. 268/2024, divorțul, apelul și recursul, scutirile.">
+<link rel="canonical" href="https://deancorso-codex.github.io/lexmaster-legal/instrumente/taxa-timbru.html">
+<meta property="og:title" content="Calculator taxă judiciară de timbru 2026 | Lex Master">
+<meta property="og:description" content="Taxa judiciară de timbru după OUG nr. 80/2013: scara valorică, taxele fixe, partajul după Legea nr. 268/2024, divorțul, apelul și recursul, scutirile.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ro_RO">
+<!-- APP_STORE_ID: id-ul aplicației din App Store Connect. Regenerează cu: python3 tools/build_site_tools.py --app-id <id> -->
+<meta name="apple-itunes-app" content="app-id=APP_STORE_ID, app-argument=lexmaster://tool/timbru">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../grile/grile.css">
+<link rel="stylesheet" href="instrumente.css">
+</head>
+<body>
+<main>
+<header><div class="logo">§</div><div><p class="brand">Lex Master RO</p><p class="sub">Pregătire pentru INM, Barou, INPPA, notariat și grefieri</p></div></header>
+<nav><a href="../grile/">Grile</a><a href="./">Calculatoare</a><a href="../grile/grila-zilei.html">Grila zilei</a><a href="../index.html">Suport</a></nav>
+<h1>Calculator taxă judiciară de timbru 2026</h1>
+<p class="lead">Taxa după OUG nr. 80/2013, în forma de după Legea nr. 268/2024 (partajul: jumătate din scară; divorțul: 200 lei sau 50 lei), cu apelul (50 %, minimum 20 lei) și recursul.</p>
+<section class="calc">
+<form onsubmit="return false">
+<label for="filed">Data cererii</label><input type="date" id="filed">
+<label for="type">Cererea</label><select id="type"></select>
+<div id="valueRow"><label for="value">Valoarea (lei)</label><input type="text" id="value" inputmode="decimal" value="10.000"></div>
+<div id="personsRow" hidden><label for="persons">Coproprietari sau moștenitori (calitatea și cotele, 50 lei fiecare)</label><input type="number" id="persons" min="0" value="0" inputmode="numeric"></div>
+<div id="unitsRow" hidden><label for="units">Câte (pagini, participanți, motive)</label><input type="number" id="units" min="1" value="1" inputmode="numeric"></div>
+<div id="pathRow"><label for="path">Calea de atac</label><select id="path"><option value="none">Prima instanță</option><option value="apel">Apel</option><option value="recurs">Recurs</option></select></div>
+<div id="groundRow" hidden><label for="ground">Motivele de recurs</label><select id="ground"><option value="procedural">Art. 488 alin. (1) pct. 1–7 C.proc.civ.</option><option value="material">Art. 488 alin. (1) pct. 8 C.proc.civ. (dreptul material)</option></select></div>
+</form>
+</section>
+<section class="result" id="result" aria-live="polite"><p>Se încarcă datele.</p></section>
+<p class="note">Rezultat orientativ, pentru studiu. Verifică textul în vigoare și regulile speciale. Date verificate: 10.11.2026.</p>
+<p class="more">Și: <a href="termen.html">Calcul termen de apel</a> · <a href="taxa-timbru.html">Calculator taxă judiciară de timbru</a> · <a href="dobanda-legala.html">Calculator dobândă legală</a></p>
+<section class="cta">
+<h2>Calculatoarele, în aplicație</h2>
+<p>În Lex Master, fiecare calcul arată regula și articolul, se adaugă în Calendar și te duce la grilele care citează aceleași articole. Plus prescripția, cauțiunea, moștenirea și calculatoarele penale.</p>
+<p><a class="btn" href="https://apps.apple.com/ro/app/idAPP_STORE_ID">Descarcă Lex Master din App Store</a></p>
+</section>
+<footer>© 2026 Andrei Mihail. Lex Master RO este un instrument de pregătire; nu oferă consultanță juridică.</footer>
+</main>
+<noscript><p>Calculatorul are nevoie de JavaScript.</p></noscript>
+<script type="module">import { initStamp } from './calc.js'; initStamp();</script>
+</body>
+</html>

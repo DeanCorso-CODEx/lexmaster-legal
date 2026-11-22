@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TEAM_ID.com.deancorso.lexmaster.ios"
+        ],
+        "components": [
+          {
+            "/": "*/duel/*"
+          },
+          {
+            "/": "*/prieten/*"
+          }
+        ]
+      }
+    ]
+  }
+}

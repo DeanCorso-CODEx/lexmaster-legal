@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator dobândă legală 2026 | Lex Master</title>
+<meta name="description" content="Dobânda legală remuneratorie și penalizatoare (OG nr. 13/2011) și între profesioniști (Legea nr. 72/2013), pe perioadele ratei de referință BNR.">
+<link rel="canonical" href="https://deancorso-codex.github.io/lexmaster-legal/instrumente/dobanda-legala.html">
+<meta property="og:title" content="Calculator dobândă legală 2026 | Lex Master">
+<meta property="og:description" content="Dobânda legală remuneratorie și penalizatoare (OG nr. 13/2011) și între profesioniști (Legea nr. 72/2013), pe perioadele ratei de referință BNR.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ro_RO">
+<!-- APP_STORE_ID: id-ul aplicației din App Store Connect. Regenerează cu: python3 tools/build_site_tools.py --app-id <id> -->
+<meta name="apple-itunes-app" content="app-id=APP_STORE_ID, app-argument=lexmaster://tool/dobanda">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../grile/grile.css">
+<link rel="stylesheet" href="instrumente.css">
+</head>
+<body>
+<main>
+<header><div class="logo">§</div><div><p class="brand">Lex Master RO</p><p class="sub">Pregătire pentru INM, Barou, INPPA, notariat și grefieri</p></div></header>
+<nav><a href="../grile/">Grile</a><a href="./">Calculatoare</a><a href="../grile/grila-zilei.html">Grila zilei</a><a href="../index.html">Suport</a></nav>
+<h1>Calculator dobândă legală 2026</h1>
+<p class="lead">Rata de referință BNR, plus 4 puncte (penalizatoare) sau 8 puncte (între profesioniști, cu rata din prima zi a semestrului), redusă cu 20 % în raporturile cu neprofesioniști. Calculul pe fiecare perioadă cu aceeași rată.</p>
+<section class="calc">
+<form onsubmit="return false">
+<label for="principal">Debitul (lei)</label><input type="text" id="principal" inputmode="decimal" value="10.000">
+<div class="row"><div><label for="from">Scadența</label><input type="date" id="from"></div><div><label for="to">Data plății (inclusiv)</label><input type="date" id="to"></div></div>
+<label for="kind">Felul dobânzii</label><select id="kind"></select>
+<div id="relationRow"><label for="relation">Raportul juridic</label><select id="relation"><option value="pro">Între profesioniști</option><option value="ne">Cu un neprofesionist (−20 %, art. 3 alin. (3) OG nr. 13/2011)</option></select></div>
+<label class="check"><input type="checkbox" id="actual"> Anii bisecți la 366 de zile</label>
+</form>
+</section>
+<section class="result" id="result" aria-live="polite"><p>Se încarcă datele.</p></section>
+<p class="note">Rezultat orientativ, pentru studiu. Verifică textul în vigoare și regulile speciale. Date verificate: 10.11.2026.</p>
+<p class="more">Și: <a href="termen.html">Calcul termen de apel</a> · <a href="taxa-timbru.html">Calculator taxă judiciară de timbru</a> · <a href="dobanda-legala.html">Calculator dobândă legală</a></p>
+<section class="cta">
+<h2>Calculatoarele, în aplicație</h2>
+<p>În Lex Master, fiecare calcul arată regula și articolul, se adaugă în Calendar și te duce la grilele care citează aceleași articole. Plus prescripția, cauțiunea, moștenirea și calculatoarele penale.</p>
+<p><a class="btn" href="https://apps.apple.com/ro/app/idAPP_STORE_ID">Descarcă Lex Master din App Store</a></p>
+</section>
+<footer>© 2026 Andrei Mihail. Lex Master RO este un instrument de pregătire; nu oferă consultanță juridică.</footer>
+</main>
+<noscript><p>Calculatorul are nevoie de JavaScript.</p></noscript>
+<script type="module">import { initInterest } from './calc.js'; initInterest();</script>
+</body>
+</html>

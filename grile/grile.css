@@ -1,0 +1,26 @@
+/* Paginile cu grile (generate de tools/build_site_questions.py); completează style.css */
+.brand{font:700 26px/1.2 Georgia,"Times New Roman",serif;margin:0}
+h1{margin:6px 0 10px;overflow-wrap:break-word;hyphens:manual}
+.lead{color:var(--sub);margin:0 0 18px}
+.muted{color:var(--sub)}
+.q{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 20px;margin:14px 0}
+.q .meta{color:var(--sub);font-size:14px;font-style:italic;margin:0 0 6px}
+.q .stem{font:700 19px/1.45 Georgia,"Times New Roman",serif;margin:0 0 10px;overflow-wrap:break-word}
+.opts{list-style:none;padding:0;margin:0 0 10px}
+.opts li{padding:8px 0;border-top:1px solid var(--line);overflow-wrap:break-word}
+.opts .l{font-weight:800;color:var(--accent);margin-right:4px}
+details{margin:8px 0 4px}
+summary{cursor:pointer;font-weight:700;color:var(--accent);padding:8px 0;min-height:44px;display:flex;align-items:center}
+.key{margin:6px 0}
+.expl{padding-left:18px;margin:6px 0}
+.expl li{margin:8px 0;overflow-wrap:break-word}
+.expl li.ok strong{color:#15803d}
+.expl li.no strong{color:#b91c1c}
+@media (prefers-color-scheme:dark){.expl li.ok strong{color:#4ade80}.expl li.no strong{color:#f87171}}
+.art{font-size:14px;color:var(--sub)}
+.open{display:inline-flex;align-items:center;min-height:44px;font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 20px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;text-align:center}
+.cta{margin-top:28px}
+.more{margin:18px 0}
+.code{font:700 28px/1.2 ui-monospace,Menlo,monospace;letter-spacing:4px}
+section ul{padding-left:18px}

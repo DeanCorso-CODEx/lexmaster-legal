@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deancorso-codex.github.io/lexmaster-legal/sitemap.xml
