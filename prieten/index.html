@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ro">
+<html lang="ro" data-title-ro="Un coleg te adaugă în Lex Master | Lex Master" data-title-en="A colleague adds you on Lex Master | Lex Master">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,23 +19,27 @@ document.write('<meta name="apple-itunes-app" content="app-id=APP_STORE_ID, app-
 </script>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../pagini.css">
+<script src="../lang.js"></script>
 </head>
 <body>
 <main>
-<header><div class="logo">§</div><div><p class="brand">Lex Master RO</p><p class="sub">Pregătire pentru INM, Barou, INPPA, notariat și grefieri</p></div></header>
-<nav><a href="../index.html">Suport</a><a href="../confidentialitate.html">Confidențialitate</a></nav>
-<h1>Un coleg te adaugă la prieteni</h1>
-<p class="lead">În Lex Master vă vedeți în clasamentul prietenilor și vă puteți provoca la dueluri. Fără agenda telefonului: doar codul de 6 caractere.</p>
+<header><div class="logo">§</div><div><p class="brand">Lex Master RO</p><p class="sub"><span data-lang="ro">Pregătire pentru INM, Barou, INPPA, notariat și grefieri</span><span data-lang="en">Preparation for the INM, Bar, INPPA, notary and court clerk exams</span></p></div><button type="button" class="langbtn" data-lang-toggle lang="en">English</button></header>
+<nav><a href="../index.html"><span data-lang="ro">Suport</span><span data-lang="en">Support</span></a><a href="../confidentialitate.html"><span data-lang="ro">Confidențialitate</span><span data-lang="en">Privacy</span></a></nav>
+<h1><span data-lang="ro">Un coleg te adaugă la prieteni</span><span data-lang="en">A colleague is adding you as a friend</span></h1>
+<p class="lead" data-lang="ro">În Lex Master vă vedeți în clasamentul prietenilor și vă puteți provoca la dueluri. Fără agenda telefonului: doar codul de 6 caractere.</p>
+<p class="lead" data-lang="en">In Lex Master you see each other in the friends leaderboard and can challenge each other to duels. No phone contacts: just the 6-character code.</p>
 <p class="code" id="code"></p>
-<p><a class="btn" id="open" data-scheme="lexmaster://friend/" href="#">Adaugă-l în aplicație</a></p>
-<p class="muted">Nu ai aplicația? Descarc-o din App Store, apoi introdu codul în Clasament › Prieteni.</p>
+<p><a class="btn" id="open" data-scheme="lexmaster://friend/" href="#"><span data-lang="ro">Adaugă-l în aplicație</span><span data-lang="en">Add them in the app</span></a></p>
+<p class="muted" data-lang="ro">Nu ai aplicația? Descarc-o din App Store, apoi introdu codul în Clasament › Prieteni.</p>
+<p class="muted" data-lang="en">Don't have the app? Download it from the App Store, then enter the code in Leaderboard › Friends.</p>
 <script src="../open.js"></script>
 <section class="cta">
-<h2>Toate grilele, în aplicație</h2>
-<p>Mii de grile oficiale INM, Barou și INPPA, cu explicația fiecărei variante, articolul în vigoare lângă grilă, simulări ca la examen și un plan pentru fiecare zi.</p>
-<p><a class="btn" href="https://apps.apple.com/ro/app/idAPP_STORE_ID">Descarcă Lex Master din App Store</a></p>
+<h2><span data-lang="ro">Toate grilele, în aplicație</span><span data-lang="en">All the questions, in the app</span></h2>
+<p data-lang="ro">Mii de grile oficiale INM, Barou și INPPA, cu explicația fiecărei variante, articolul în vigoare lângă grilă, simulări ca la examen și un plan pentru fiecare zi.</p>
+<p data-lang="en">Thousands of official INM, Bar and INPPA exam questions, with an explanation for every option, the article in force next to the question, exam-style simulations and a plan for every day.</p>
+<p><a class="btn" href="https://apps.apple.com/ro/app/idAPP_STORE_ID"><span data-lang="ro">Descarcă Lex Master din App Store</span><span data-lang="en">Download Lex Master on the App Store</span></a></p>
 </section>
-<footer>© 2026 Andrei Mihail. Lex Master RO este un instrument de pregătire; nu oferă consultanță juridică.</footer>
+<footer><span data-lang="ro">© 2026 Andrei Mihail. Lex Master RO este un instrument de pregătire; nu oferă consultanță juridică.</span><span data-lang="en">© 2026 Andrei Mihail. Lex Master RO is a study tool; it does not provide legal advice.</span></footer>
 </main>
 </body>
 </html>
